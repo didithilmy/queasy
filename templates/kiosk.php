@@ -33,7 +33,7 @@
             <div style="position: relative; height: 620px;">
                 <div id="intro">
                     <div class="container">
-                        <div class="row">
+                        <div class="row" style="margin-top:80px">
                             <div class="col-md-7">
                                 <h1 class="hd">Halo, maba-maba!</h1>
                                 <h3>Selamat datang di pendaftaran ulang SNMPTN! Silahkan masukkan nomor registrasi SNMPTN di kolom sebelah.</h3>
