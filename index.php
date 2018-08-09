@@ -4,6 +4,7 @@
  * @author Muhammad Aditya Hilmy 16517292
  */
 
+define("BASE_URL", getenv("BASE_URL") ?: "http://localhost/queasy");
 include "vendor/autoload.php";
 
 use Slim\Views\PhpRenderer;
