@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div id="details">
-                    <div class="container">
+                    <div class="container" style="margin-top:80px">
                         <div id="udetails">
                             <h2 id="name"></h2>
                             <h3><span id="faculty">STEI</span> - <span id="rno"></span></h3>
