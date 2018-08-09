@@ -4,7 +4,6 @@
  * @author Muhammad Aditya Hilmy 16517292
  */
 
-define("BASE_URL", getenv("BASE_URL") ?: "http://localhost/queasy");
 include "vendor/autoload.php";
 
 use Slim\Views\PhpRenderer;
@@ -30,6 +29,10 @@ $app->get('/kiosk', function ($request, $response, $args) {
     // $this->renderer->render($response, "/header.php", $args);
     // $this->renderer->render($response, "/home.php", $args);
     return $this->renderer->render($response, "/kiosk.php", $args);
+});
+
+$app->get('/prosesi', function ($request, $response, $args) {
+    return $this->renderer->render($response, "/prosesi.php", $args);
 });
 
 // Run app

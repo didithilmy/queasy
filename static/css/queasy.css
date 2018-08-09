@@ -149,3 +149,22 @@ body {
 #keypad table {
     margin: 0 auto;
 }
+
+#userlogo{
+    font-size:120px;
+    margin-top:20px;
+}
+
+#background{
+    background-color:#a3e7ed;
+    position:absolute;
+    top:50%;
+    height:50%;
+    width:100%;
+    margin:0px;
+    z-index:1;
+}
+
+.slider{
+    
+}
