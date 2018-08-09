@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="<?=BASE_URL?>/static/css/queasy.css" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="<?=BASE_URL?>/static/js/kiosk.js"></script>
+        <script type="text/javascript" src="<?=BASE_URL?>/static/js/prosesi.js"></script>
     </head>
 
     <body>
@@ -44,15 +44,22 @@
         </div>
     </div>
 
-    <div class="row" id="background">
-         <div align="center" id="noantrian" style="margin-top:20px">
-            <h4 class="hd">NO. ANTRIAN</h4>
-            <h3 class="hd" style="font-size: 60px;">012345678</h3>
+    <div id="background">
+         <div class="row" style="width:100%">
+             <div align="center" id="noantrian" style="margin-top:20px">
+                <h4 class="hd">NO. ANTRIAN</h4>
+                <h3 class="hd" style="font-size: 60px;">012345678</h3>
+            </div>
         </div>
 
-        <div class="row">
-            <div class="slider">
-
+        <div class="row" style="width:100%">
+            <div class="slider" id="slider">
+                <div class="slide-button" id="drag">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="slider-right" id="slider-text">
+                    Slide to next
+                </div>
             </div>
         </div>
     </div>

@@ -166,5 +166,41 @@ body {
 }
 
 .slider{
-    
+    width:40%;
+    height:100px;
+    background-color:white;
+    margin-left:30%;
+    margin-top:20px;
+    border-radius:30px;
+}
+
+.slide-button{
+    position:absolute;
+    width:10%;
+    height:100px;
+    background-color:black;
+    float:left;
+    margin:0px;
+    border-radius:30px;
+    text-align: center;
+    font-size:60px;
+    display:inline; 
+}
+
+.slide-button:active{
+    background-color: #363738;
+}
+
+.slider-right{
+    display:inline;
+    width:75%;
+    height:100px;
+    float:right;
+    margin:0px;
+    border-radius:30px;
+    text-align: center;
+    font-size:55px;
+    display:inline; 
+    text-align: center;
+    color:grey;
 }
