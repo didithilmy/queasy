@@ -33,7 +33,7 @@
             <div style="position: relative; height: 620px;">
                 <div id="intro">
                     <div class="container">
-                        <div class="row">
+                        <div class="row" style="margin-top:80px">
                             <div class="col-md-7">
                                 <h1 class="hd">Halo, maba-maba!</h1>
                                 <h3>Selamat datang di pendaftaran ulang SNMPTN! Silahkan masukkan nomor registrasi SNMPTN di kolom sebelah.</h3>
@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div id="details">
-                    <div class="container">
+                    <div class="container" style="margin-top:80px">
                         <div id="udetails">
                             <h2 id="name"></h2>
                             <h3><span id="faculty">STEI</span> - <span id="rno"></span></h3>
