@@ -32,6 +32,7 @@ $app->get('/kiosk', function ($request, $response, $args) {
     return $this->renderer->render($response, "/kiosk.php", $args);
 });
 
+$app->get('/prosesi', function ($request, $response, $args) {
     return $this->renderer->render($response, "/prosesi.php", $args);
 });
 
