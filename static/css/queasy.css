@@ -7,6 +7,7 @@
 .navbar-queasy {
     background-color: #00A1E5;
     border-color: #0079AD;
+    z-index: 2;
 }
 
 body {
@@ -232,3 +233,35 @@ body {
     text-align: center;
 }
 
+.dropdown{
+    background-color:#00A1E5;
+    position:fixed;
+    top:0%;
+    height:50%;
+    width:100%;
+    margin:0px;
+    float:top;
+    z-index: 1;
+}
+
+.back-grey{
+    background-color:black;
+    position:fixed;
+    top:0px;
+    height:100%;
+    width:100%;
+    margin:0px;
+    z-index: 0;
+}
+
+#logout-estimasi{
+    height:40px;
+    position: absolute;
+    right:20px;
+    top:50px;
+}
+
+.margin-estimasi{
+    margin-left:7%;
+    margin-top: 10px;
+}
