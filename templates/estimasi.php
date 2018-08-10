@@ -23,7 +23,7 @@
 	<div class="row" style="width:100%">
 		<div class="kotak-estimasi">
 			<h1 id="tulisanantri">NOMOR ANTRIAN</h1>
-			<div style="font-size:90px" id="tulisanantri">01423</div>
+			<div style="font-size:90px" id="tulisanantri"><?php echo($no_regis) ?></div>
 		</div>
 	</div>
 	
@@ -34,7 +34,7 @@
 		</div>
 	</div>
 	<div class="dropdown" id="ddmenu" style="padding-top:60px">
-		<button class="btn btn-outline-light my-2 my-sm-0" type="submit" id="logout-estimasi">LOG OUT</button>
+		<a href="<?=BASE_URL?>/login"><button class="btn btn-outline-light my-2 my-sm-0" type="submit" id="logout-estimasi">LOG OUT</button></a>
 		<div class="row">
 				<div class="col-sm-1"></div>
                 <i class="fas fa-user-circle" id="userlogo" style="margin-top:0px"></i>

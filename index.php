@@ -36,8 +36,12 @@ $app->get('/prosesi', function ($request, $response, $args) {
     return $this->renderer->render($response, "/prosesi.php", $args);
 });
 
+$app->get('/login', function ($request, $response, $args) {
+    return $this->renderer->render($response, "/login.php", $args);
+});
 
-$app->get('/estimasi', function ($request, $response, $args) {
+$app->post('/estimasi', function ($request, $response, $args) {
+	  $args['no_regis']=$request->getParam("no_regis");
     return $this->renderer->render($response, "/estimasi.php", $args);
 });
 
