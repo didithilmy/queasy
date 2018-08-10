@@ -7,7 +7,7 @@ Queasy is an online queueing system specifically designed to ease the process of
 
 Queasy consists of four primary modules:
 
- 1. Queue estimation page -- Accepts queue no to display the estimate `/estimasi`
+ 1. Queue estimation page -- Accepts queue no to display the estimate `/login`
  2. Reception Kiosk -- Scans preliminary document barcode and issues queue number `/kiosk`
  3. Display Board -- Displays currently-processed queue numbers `/queue`
  4. Service Desk -- Allows operators to proceed to the next queue `/prosesi`
