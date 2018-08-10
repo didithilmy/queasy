@@ -41,8 +41,12 @@ $app->get('/login', function ($request, $response, $args) {
 });
 
 $app->post('/estimasi', function ($request, $response, $args) {
-	$args['no_regis']=$request->getParam("no_regis");
+	  $args['no_regis']=$request->getParam("no_regis");
     return $this->renderer->render($response, "/estimasi.php", $args);
+});
+
+$app->get('/queue', function ($request, $response, $args) {
+    return $this->renderer->render($response, "/queue.php", $args);
 });
 
 // Run app

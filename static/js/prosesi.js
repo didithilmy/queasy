@@ -24,7 +24,9 @@ window.onload = function(){
 			document.getElementById("drag").style.left = (document.getElementById("drag").offsetLeft - pos1) + "px";
 		}
 		else{
-			$("#drag").offset({left:750});
+			$("#drag").offset({left:
+				document.getElementById("slider").offsetWidth + pos_ori - document.getElementById("drag").offsetWidth
+			});
 		}
 	  }
 
