@@ -205,6 +205,33 @@ body {
     color:grey;
 }
 
+.logo-estimasi{
+    margin-left: 30px;
+}
+
+.size-menu{
+    font-size:150%;
+    vertical-align: middle;
+}
+
+.kotak-estimasi{
+    background-color: white;
+    height: 200px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top:30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#tulisanantri{
+    color:black;
+    font-family: bourbon;
+    text-align: center;
+}
+
 .full100{
   width:100%;
 }
