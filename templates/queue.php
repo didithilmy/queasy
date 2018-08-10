@@ -10,6 +10,53 @@
     <script type="text/javascript" src="<?=BASE_URL?>/static/js/kiosk.js"></script>
 </head>
 <body>
- <div class="">
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-queasy">
+      <div class="container">
+          <a class="navbar-brand" href="#"><img src="<?=BASE_URL?>/static/img/logo-white-l.svg" height="30" /></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+  </nav>
+
+  <div class="row full100">
+    <div class="col-sm-2 fill1"></div>
+    <div class="col-sm-3 queuetxt hd" >NOMOR ANTRIAN</div>
+    <div class="col-sm-2 fill1"></div>
+    <div class="col-sm-3 queuetxt hd">KONTER</div>
+    <div class="col-sm-2 fill1"></div>
+  </div>
+
+  <div class="row full100">
+    <div class="col-sm-2 fill1"></div>
+    <div class="col-sm-3 queuenum hd" >100</div>
+    <div class="col-sm-2 fill1"></div>
+    <div class="col-sm-3 queuenum hd">K-05</div>
+    <div class="col-sm-2 fill1"></div>
+  </div>
+
+  <div id="background">
+    <div class="queuetitle hd">NOMOR ANTRIAN BERIKUTNYA</div>
+
+
+  <div class="row full100">
+    <div class="col-sm-2 fill2"></div>
+    <div class="col-sm-2 queuenum2 hd">101</div>
+    <div class="col-sm-1 fill2"></div>
+    <div class="col-sm-2 queuenum2 hd">102</div>
+    <div class="col-sm-1 fill2"></div>
+    <div class="col-sm-2 queuenum2 hd">103</div>
+  </div>
+
+  <div class="row full100">
+    <div class="col-sm-2 fill2"></div>
+    <div class="col-sm-2 queuenum2 hd">104</div>
+    <div class="col-sm-1 fill2"></div>
+    <div class="col-sm-2 queuenum2 hd">105</div>
+    <div class="col-sm-1 fill2"></div>
+    <div class="col-sm-2 queuenum2 hd">106</div>
+  </div>
+
+</div>
+
 </body>
 </html>
