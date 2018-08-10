@@ -36,5 +36,9 @@ $app->get('/prosesi', function ($request, $response, $args) {
     return $this->renderer->render($response, "/prosesi.php", $args);
 });
 
+$app->get('/estimasi', function ($request, $response, $args) {
+    return $this->renderer->render($response, "/estimasi.php", $args);
+});
+
 // Run app
 $app->run();
