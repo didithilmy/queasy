@@ -1,6 +1,6 @@
 window.onload = function(){ 
 	drag();
-	var pos1=0, pos2="30%",pos_ori=document.getElementById("drag").offsetLeft,pos_lim=740,mov=0;
+	var pos1=0, pos2="30%",pos_ori=document.getElementById("drag").offsetLeft,pos_lim=740;
 
 	function drag(){	
 		document.getElementById("drag").onmousedown = dragDown;
@@ -20,24 +20,35 @@ window.onload = function(){
 	    e.preventDefault();
 	    if ((document.getElementById("drag").offsetLeft >= pos_ori)&&(document.getElementById("drag").offsetLeft <= pos_lim)){
 	    	pos1 = pos2 - e.clientX;
+	    	pos2 = e.clientX;
+			document.getElementById("drag").style.left = (document.getElementById("drag").offsetLeft - pos1) + "px";
 		}
 		else{
-			pos1=0;
+			$("#drag").offset({left:750});
 		}
-	    pos2 = e.clientX;
-		document.getElementById("drag").style.left = (document.getElementById("drag").offsetLeft - pos1) + "px";
-		mov=(document.getElementById("drag").offsetLeft);
 	  }
 
 	  function closeDragElement() {
-	  	console.log(mov);
 	    document.onmouseup = null;
 	    document.onmousemove = null;
 	    $("#slider-text").fadeIn();
 	    $("#drag").animate({
 	    	left:pos_ori,
 	    }, 'slow')
-
 	    pos1=0; pos2="30%";
+	    transition();
+	  }
+
+	  function transition(){
+	  	$("#prosesi-data").fadeOut();
+	  	$("#antrian-prosesi").fadeOut(function(){
+	  		$("#prosesi-nama").text("ARDI");
+	  		$("#prosesi-fak").text("FMIPA");
+	  		$("#prosesi-sek").text("SMAN 1 YOGYAKARTA");
+	  		$("#prosesi-no").text("888788788");
+	  		$("#antrian-prosesi").text("876543210");
+	  	});
+  		$("#prosesi-data").fadeIn();
+	  	$("#antrian-prosesi").fadeIn();
 	  }
 };

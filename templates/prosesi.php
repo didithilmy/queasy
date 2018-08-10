@@ -35,11 +35,11 @@
             <div class="col-sm-2">
                 <i class="fas fa-user-circle" id="userlogo"></i>
             </div>
-            <div class="col-sm-4">
-                <h2>SALMA FEDORA</h2>
-                <h1>STEI</h1>
-                <h2>SMAN 6 CIREBON</h2>
-                <h2>012345678</h2>
+            <div class="col-sm-8" id="prosesi-data">
+                <h2 id="prosesi-nama">SALMA FEDORA</h2>
+                <h1 id="prosesi-fak">STEI</h1>
+                <h2 id="prosesi-sek">SMAN 6 CIREBON</h2>
+                <h2 id="prosesi-no">012345678</h2>
             </div>
         </div>
     </div>
@@ -48,7 +48,7 @@
          <div class="row" style="width:100%">
              <div align="center" id="noantrian" style="margin-top:20px">
                 <h4 class="hd">NO. ANTRIAN</h4>
-                <h3 class="hd" style="font-size: 60px;">012345678</h3>
+                <h3 class="hd" style="font-size: 60px;" id="antrian-prosesi">012345678</h3>
             </div>
         </div>
 
