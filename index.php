@@ -32,5 +32,9 @@ $app->get('/kiosk', function ($request, $response, $args) {
     return $this->renderer->render($response, "/kiosk.php", $args);
 });
 
+$app->get('/queue', function ($request, $response, $args) {
+    return $this->renderer->render($response, "/queue.php", $args);
+});
+
 // Run app
 $app->run();
